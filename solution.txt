@@ -1,0 +1,7 @@
+ 2264  cat ./mystery/crimescene | grep CLUE
+ 2265  cat ./mystery/people | grep "Annabel Church"
+ 2266  cat ./mystery/streets/Buckingham_Place
+ 2267  cat ./mystery/interviews/interview-699607
+ 2268  cat ./mystery/vehicles | grep "L337.*9" -A 5 | grep "Height: 6" -B 4 | grep "Color: Blue" -B 2 -A 2 | grep "Make: Honda" -B 1 -A 3 | grep "Height: 6'" -B4
+ 2269  cd ./mystery/memberships
+ 2270  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" 
